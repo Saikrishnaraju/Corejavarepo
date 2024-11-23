@@ -1,13 +1,15 @@
 package com.reverse;
 
+import java.util.Scanner;
+
 public class ReverseString {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		String st = "Reverse";
 		String str = "";
 		char ch;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the string to reverse");
+		String st = sc.nextLine();
 		for (int i = 0; i < st.length(); i++) {
 			ch = st.charAt(i);
 			str = ch + str;
@@ -16,7 +18,8 @@ public class ReverseString {
 	}
 
 	/*
-	 * String st = "Saikrishnaraju"; StringBuffer sb = new StringBuffer(st);
-	 * StringBuffer reverse = sb.reverse(); System.out.println(reverse);
+	 * System.out.println("Enter the string to reverse"); String st = sc.nextLine();
+	 * StringBuffer sb = new StringBuffer(st); StringBuffer reverse = sb.reverse();
+	 * System.out.println(reverse);
 	 */
 }
