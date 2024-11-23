@@ -1,8 +1,13 @@
 package com.reverse;
 
+import java.util.Scanner;
+
 public class DuplicatesString {
 	public void RemoveDuplicates() {
-		String s = "Hello World!";
+		// String s = "Hello World!";
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the string to check");
+		String s = sc.nextLine();
 		int l = s.length();
 		char ch;
 		String result = "";

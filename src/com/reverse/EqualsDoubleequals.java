@@ -1,10 +1,17 @@
 package com.reverse;
 
+import java.util.Scanner;
+
 public class EqualsDoubleequals {
 
 	public static void main(String[] args) {
-		String word1 = "Java";
-		String word2 = "Java";
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the numbers to check");
+		String word1 = sc.nextLine();
+		String word2 = sc.nextLine();
+
+		// String word1 = "Java";
+		// String word2 = "Java";
 		String word3 = new String("Java");
 
 		System.out.println(word1 == word2); // Output: true
