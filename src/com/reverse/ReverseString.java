@@ -15,6 +15,7 @@ public class ReverseString {
 			str = ch + str;
 		}
 		System.out.println(str);
+		sc.close();
 	}
 
 	/*

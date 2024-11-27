@@ -20,6 +20,7 @@ public class DuplicatesString {
 			s = s.replace(ch, ' ');
 		}
 		System.out.println("After removing duplicate characters : " + result);
+		sc.close();
 	}
 
 	public static void main(String[] args) {

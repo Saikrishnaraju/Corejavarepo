@@ -6,7 +6,7 @@ public class EqualsDoubleequals {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the numbers to check");
+		System.out.println("Enter the string to check");
 		String word1 = sc.nextLine();
 		String word2 = sc.nextLine();
 
@@ -19,5 +19,6 @@ public class EqualsDoubleequals {
 
 		System.out.println(word1.equals(word2)); // Output: true
 		System.out.println(word1.equals(word3)); // Output: true
+		sc.close();
 	}
 }
